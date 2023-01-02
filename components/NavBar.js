@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 
 const NavBar = () => {
-    //quede en el minuto 8:00
+    //quede en el minuto 11:00
     //https://www.youtube.com/watch?v=y3nE6F5T9jo&ab_channel=DailyWebCoding
 
 

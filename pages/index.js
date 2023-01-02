@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Inter } from "@next/font/google";
 import NavBar from "../components/NavBar";
 import Image from "next/image";
+import Socials from "../components/Socials";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +24,7 @@ export default function Home() {
             <NavBar />
 
             <div className="max-w-2xl flex flex-col gap-5 mt-20">
-              <div className="relative w-40 h-40 align-items-center">
+              <div className="relative w-40 h-40">
                 <Image
                   src="/yo.jpg"
                   fill
@@ -35,6 +36,11 @@ export default function Home() {
               <h1 className="text-lg font-semibold-sans tracking-tight text-yellow-300 sm:text-5xl">
                 Software Developer and part time Analogic Photographer.
               </h1>
+              <p className="text-zinc-400 text-base"  >
+                I'm a software developer with a passion for photography. I'm a self taught developer and I'm currently working as a freelancer. I'm also a part time photographer, I love to take pictures of nature and landscapes.
+              </p>
+
+              <Socials />
 
             </div>
 
