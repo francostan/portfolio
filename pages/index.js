@@ -37,7 +37,7 @@ export default function Home() {
                 Software Developer and part time Analogic Photographer...
               </h1>
               <p className="text-zinc-400 text-base"  >
-                I'm a software developer with a passion for photography. I'm a self taught developer and I'm currently working as a freelancer. I'm also a part time photographer, I love to take pictures of nature and landscapes.
+                {"I'm a software developer with a passion for photography. I'm a self taught developer and I'm currently working as a freelancer. I'm also a part time photographer, I love to take pictures of nature and landscapes."}
               </p>
 
               <Socials />
